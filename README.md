@@ -20,14 +20,19 @@ This Python program computes the Hodge numbers of a hypersurface in a projective
 
    n = 2, d = 4 (K3 surface)
    
-   >> HS(2,4)
+      HS(2,4)
 
-   1    0    1
-   0    20   0
-   1    0    1  
+
+     ⎡1  0   1⎤
+     ⎢        ⎥
+     ⎢0  20  0⎥
+     ⎢        ⎥
+     ⎣1  0   1⎦
 
 
    n = 3, d = 5 (3-dimensional Calabi-Yao)
+   
+        HS(3,5)
 
     ⎡1   0    0   1⎤
     ⎢              ⎥
@@ -56,19 +61,19 @@ This Python program computes the Hodge numbers of a hypersurface in a projective
 
  For the odd dimension of a variety it looks like
 
- |  *     1
- |    * 1
- |    1 *
- |  1     *
-   ---------
+        |  *     1
+        |    * 1
+        |    1 *
+        |  1     *
+          ---------
 
  and for the even dimension of the variety it looks like
 
 
- |  *      1
- |    *  1
- |     * 
- |    1  *
- |  1      *
-   ---------
+        |  *      1
+        |    *  1
+        |     * 
+        |    1  *
+        |  1      *
+          ---------
           
