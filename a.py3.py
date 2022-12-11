@@ -17,9 +17,9 @@
 
  Usage:
  
-  $ python -i a.py
+  $ python3 -i a.py3.py
 
-   HS(n,d)
+    >> HS(n,d)
 
    where 
       n is the dimension of V, and 
