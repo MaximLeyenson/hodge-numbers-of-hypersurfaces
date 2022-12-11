@@ -8,7 +8,12 @@ This Python program computes the Hodge numbers of a hypersurface in a projective
 
  Usage:
  
-  $ python -i a.py
+
+  $ python3 -i a.py3.py
+
+OR
+`
+  $ python2 -i a.py2.py
 
    HS(n,d)
 
@@ -29,6 +34,15 @@ This Python program computes the Hodge numbers of a hypersurface in a projective
      ⎢        ⎥
      ⎣1  0   1⎦
 
+   n = 2, d = 5 (quintic surface in P^3)
+
+   >>> HS(2,5)
+
+      ⎡4  0   1⎤
+      ⎢        ⎥
+      ⎢0  45  0⎥
+      ⎢        ⎥
+      ⎣1  0   4⎦
 
    n = 3, d = 5 (3-dimensional Calabi-Yao)
    
